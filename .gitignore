@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 scratchpad
+db*
 
 # debug
 npm-debug.log*
@@ -26,7 +27,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env*
 
 # vercel
 .vercel
@@ -36,7 +37,6 @@ yarn-error.log*
 next-env.d.ts
 
 # content
-/db
 public/elin_carlsson_CV_en_20231127.pdf
 public/lil-1.png
 public/nex-1.svg
